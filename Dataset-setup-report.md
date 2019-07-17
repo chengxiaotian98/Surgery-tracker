@@ -8,7 +8,7 @@ Cheng
 - [X] Generate metadata of Serena Video list
 - [ ] Generate metadata of other Video list: <b> Dan's spreadsheet missed  this part </b>
 - [X] Generate hand-detection-data 
-    - Given the task that we should get $N$ frames per video clip, we divide the folders, containing sampled-5fps-frames, into $N$ parts. 
+    - Given the task that we should get N frames per video clip, we divide the folders, containing sampled-5fps-frames, into N parts. 
     - In each part, randomly choose one frame
     - Noted: I didn't choose to use `ffmpeg` to directly extract frames because it's too slow (about 1 frame/min, since it takes some time to traverse and find the frame) and would take days to have the data.
 - [X] Evaluate the hand data and give out the exact frame number per video we should sample.
