@@ -6,7 +6,7 @@ Cheng
 - [X] Generate youtube-open-datasets/Images/ data, sampled from original video with fps=5, using `ffmpeg`
     - Note: if the duration of the video is longer than 10 min, then it is only sampled from the 10 min in the middle.
 - [X] Generate metadata of Serena Video list
-- [ ] Generate metadata of other Video list: <b> Dan's spreadsheet missed  this part </b>
+- [ ] Generate metadata of other Video list: Dan's spreadsheet did not provide id or url, still working to merge the ids and Dan's sheets altogether, but Dan's sheet is unfinished.
 - [X] Generate hand-detection-data 
     - Given the task that we should get N frames per video clip, we divide the folders, containing sampled-5fps-frames, into N parts. 
     - In each part, randomly choose one frame
