@@ -10,6 +10,7 @@ head-and-neck | 28 | 64
 plastic | 0 | 2
 Serena | 14 | 68 
 vascular | 1 | 2
+Total | 146 | 462
 
 ## Graph
 
